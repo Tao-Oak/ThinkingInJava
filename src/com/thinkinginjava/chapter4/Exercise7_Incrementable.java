@@ -16,6 +16,7 @@ class Incrementable {
 }
 
 public class Exercise7_Incrementable {
+	@SuppressWarnings("all")
   public static void main(String[] args) {
     Incrementable sf = new Incrementable();
     sf.increment();

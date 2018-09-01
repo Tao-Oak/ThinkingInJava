@@ -19,7 +19,9 @@ public enum Planet {
       this.mass = mass;
       this.radius = radius;
   }
+  @SuppressWarnings("unused")
   private double mass() { return mass; }
+  @SuppressWarnings("unused")
   private double radius() { return radius; }
 
   // universal gravitational constant  (m3 kg-1 s-2)

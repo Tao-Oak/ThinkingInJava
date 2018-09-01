@@ -110,11 +110,17 @@ public class AllOperators {
     // Casting
     // error: incompatible types: char cannot be converted to boolean
     //! boolean bl = (boolean)x;
+    @SuppressWarnings("unused")
     byte b = (byte)x;
+    @SuppressWarnings("unused")
     short s = (short)x;
+    @SuppressWarnings("unused")
     int i = (int)x;
+    @SuppressWarnings("unused")
     long l = (long)x;
+    @SuppressWarnings("unused")
     float f = (float)x;
+    @SuppressWarnings("unused")
     double d = (double)x;
   }
 
@@ -165,11 +171,17 @@ public class AllOperators {
 
     // Casting
     //! boolean bl = (boolean)x;
+    @SuppressWarnings("unused")
     char c = (char)x;
+    @SuppressWarnings("unused")
     byte b = (byte)x;
+    @SuppressWarnings("unused")
     short s = (short)x;
+    @SuppressWarnings("unused")
     long l = (long)x;
+    @SuppressWarnings("unused")
     float f = (float)x;
+    @SuppressWarnings("unused")
     double d = (double) x;
   }
 

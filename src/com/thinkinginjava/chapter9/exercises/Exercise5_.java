@@ -16,6 +16,7 @@ class B {
 }
 
 class C extends E5_A {
+  @SuppressWarnings("unused")
   private B b = new B();
 }
 

@@ -31,15 +31,23 @@ public class Literals {
     short s = 0x7fff;
     print("s: " + Integer.toBinaryString(s));
 
+    @SuppressWarnings("unused")
     long n1 = 200L;
+    @SuppressWarnings("unused")
     long n2 = 200l;
+    @SuppressWarnings("unused")
     long n3 = 200;
 
+    @SuppressWarnings("unused")
     float f1 = 1;
+    @SuppressWarnings("unused")
     float f2 = 1F;
+    @SuppressWarnings("unused")
     float f3 = 1f;
 
+    @SuppressWarnings("unused")
     double d1 = 1d;
+    @SuppressWarnings("unused")
     double d2 = 1D;
   }
 }

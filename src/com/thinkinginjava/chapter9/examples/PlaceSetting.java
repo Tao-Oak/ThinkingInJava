@@ -51,9 +51,13 @@ class Custom {
 }
 
 public class PlaceSetting extends Custom {
+  @SuppressWarnings("unused")
   private Spoon spoon;
+  @SuppressWarnings("unused")
   private Fork fork;
+  @SuppressWarnings("unused")
   private Knife knife;
+  @SuppressWarnings("unused")
   private DinnerPlate plate;
 
   public PlaceSetting(int i) {
